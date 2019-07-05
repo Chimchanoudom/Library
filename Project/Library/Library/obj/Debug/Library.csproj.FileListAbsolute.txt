@@ -35,3 +35,6 @@ F:\Python\ASS\Project\Library\Library\obj\Debug\Library.expense_detail.resources
 F:\Python\ASS\Project\Library\Library\obj\Debug\Library.return.resources
 F:\Python\ASS\Project\Library\Library\obj\Debug\Library.return_detail.resources
 F:\Python\ASS\Project\Library\Library\obj\Debug\Library.importbook.resources
+D:\Python\API\Library\Project\Library\Library\bin\Debug\Library.exe.config
+D:\Python\API\Library\Project\Library\Library\obj\Debug\Library.exe
+D:\Python\API\Library\Project\Library\Library\obj\Debug\Library.pdb
