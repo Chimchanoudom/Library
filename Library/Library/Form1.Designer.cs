@@ -32,17 +32,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.សវភBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ខចសវភBorrowBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.សងសវភReturnBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.សវងរកFindToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnBorrowBook = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnReturnBook = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnFindbook = new System.Windows.Forms.ToolStripMenuItem();
             this.សមជកStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ចឈមRegisterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ធវបណណPrintCardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnRegister = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnPrintCard = new System.Windows.Forms.ToolStripMenuItem();
             this.បគគលកStaffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.បញចលបគគលកAddStaffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnAddStaff = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnprevilageanduser = new System.Windows.Forms.ToolStripMenuItem();
             this.អនកភផគតផគងSupplierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.នចលសវភImportBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSupplierInformatiomn = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnImportBook = new System.Windows.Forms.ToolStripMenuItem();
             this.របយករណReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ចកចញLogOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,9 +77,9 @@
             // សវភBookToolStripMenuItem
             // 
             this.សវភBookToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ខចសវភBorrowBookToolStripMenuItem,
-            this.សងសវភReturnBookToolStripMenuItem,
-            this.សវងរកFindToolStripMenuItem});
+            this.btnBorrowBook,
+            this.btnReturnBook,
+            this.btnFindbook});
             this.សវភBookToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.សវភBookToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("សវភBookToolStripMenuItem.Image")));
             this.សវភBookToolStripMenuItem.Name = "សវភBookToolStripMenuItem";
@@ -87,35 +88,37 @@
             this.សវភBookToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.សវភBookToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
-            // ខចសវភBorrowBookToolStripMenuItem
+            // btnBorrowBook
             // 
-            this.ខចសវភBorrowBookToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.ខចសវភBorrowBookToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
-            this.ខចសវភBorrowBookToolStripMenuItem.Name = "ខចសវភBorrowBookToolStripMenuItem";
-            this.ខចសវភBorrowBookToolStripMenuItem.Size = new System.Drawing.Size(270, 32);
-            this.ខចសវភBorrowBookToolStripMenuItem.Text = "ខ្ចីសៀវភៅ / Borrow Book";
+            this.btnBorrowBook.BackColor = System.Drawing.Color.Black;
+            this.btnBorrowBook.ForeColor = System.Drawing.Color.Yellow;
+            this.btnBorrowBook.Name = "btnBorrowBook";
+            this.btnBorrowBook.Size = new System.Drawing.Size(270, 32);
+            this.btnBorrowBook.Text = "ខ្ចីសៀវភៅ / Borrow Book";
+            this.btnBorrowBook.Click += new System.EventHandler(this.btnBorrowBook_Click);
             // 
-            // សងសវភReturnBookToolStripMenuItem
+            // btnReturnBook
             // 
-            this.សងសវភReturnBookToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.សងសវភReturnBookToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
-            this.សងសវភReturnBookToolStripMenuItem.Name = "សងសវភReturnBookToolStripMenuItem";
-            this.សងសវភReturnBookToolStripMenuItem.Size = new System.Drawing.Size(270, 32);
-            this.សងសវភReturnBookToolStripMenuItem.Text = "សងសៀវភៅ​ /Return Book";
+            this.btnReturnBook.BackColor = System.Drawing.Color.Black;
+            this.btnReturnBook.ForeColor = System.Drawing.Color.Yellow;
+            this.btnReturnBook.Name = "btnReturnBook";
+            this.btnReturnBook.Size = new System.Drawing.Size(270, 32);
+            this.btnReturnBook.Text = "សងសៀវភៅ​ /Return Book";
+            this.btnReturnBook.Click += new System.EventHandler(this.btnReturnBook_Click);
             // 
-            // សវងរកFindToolStripMenuItem
+            // btnFindbook
             // 
-            this.សវងរកFindToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.សវងរកFindToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
-            this.សវងរកFindToolStripMenuItem.Name = "សវងរកFindToolStripMenuItem";
-            this.សវងរកFindToolStripMenuItem.Size = new System.Drawing.Size(270, 32);
-            this.សវងរកFindToolStripMenuItem.Text = "ស្វែងរក/ Find";
+            this.btnFindbook.BackColor = System.Drawing.Color.Black;
+            this.btnFindbook.ForeColor = System.Drawing.Color.Yellow;
+            this.btnFindbook.Name = "btnFindbook";
+            this.btnFindbook.Size = new System.Drawing.Size(270, 32);
+            this.btnFindbook.Text = "ស្វែងរក/ Find";
             // 
             // សមជកStudentToolStripMenuItem
             // 
             this.សមជកStudentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ចឈមRegisterToolStripMenuItem,
-            this.ធវបណណPrintCardToolStripMenuItem});
+            this.btnRegister,
+            this.btnPrintCard});
             this.សមជកStudentToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.សមជកStudentToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("សមជកStudentToolStripMenuItem.Image")));
             this.សមជកStudentToolStripMenuItem.Name = "សមជកStudentToolStripMenuItem";
@@ -125,26 +128,29 @@
             this.សមជកStudentToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             this.សមជកStudentToolStripMenuItem.Click += new System.EventHandler(this.សមជកStudentToolStripMenuItem_Click);
             // 
-            // ចឈមRegisterToolStripMenuItem
+            // btnRegister
             // 
-            this.ចឈមRegisterToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.ចឈមRegisterToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
-            this.ចឈមRegisterToolStripMenuItem.Name = "ចឈមRegisterToolStripMenuItem";
-            this.ចឈមRegisterToolStripMenuItem.Size = new System.Drawing.Size(218, 32);
-            this.ចឈមRegisterToolStripMenuItem.Text = "ចុះឈ្មោះ / Register";
+            this.btnRegister.BackColor = System.Drawing.Color.Black;
+            this.btnRegister.ForeColor = System.Drawing.Color.Yellow;
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(218, 32);
+            this.btnRegister.Text = "ចុះឈ្មោះ / Register";
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
-            // ធវបណណPrintCardToolStripMenuItem
+            // btnPrintCard
             // 
-            this.ធវបណណPrintCardToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.ធវបណណPrintCardToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
-            this.ធវបណណPrintCardToolStripMenuItem.Name = "ធវបណណPrintCardToolStripMenuItem";
-            this.ធវបណណPrintCardToolStripMenuItem.Size = new System.Drawing.Size(218, 32);
-            this.ធវបណណPrintCardToolStripMenuItem.Text = "ធ្វើបណ្ណ័ / Print Card";
+            this.btnPrintCard.BackColor = System.Drawing.Color.Black;
+            this.btnPrintCard.ForeColor = System.Drawing.Color.Yellow;
+            this.btnPrintCard.Name = "btnPrintCard";
+            this.btnPrintCard.Size = new System.Drawing.Size(218, 32);
+            this.btnPrintCard.Text = "ធ្វើបណ្ណ័ / Print Card";
+            this.btnPrintCard.Click += new System.EventHandler(this.btnPrintCard_Click);
             // 
             // បគគលកStaffToolStripMenuItem
             // 
             this.បគគលកStaffToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.បញចលបគគលកAddStaffToolStripMenuItem});
+            this.btnAddStaff,
+            this.btnprevilageanduser});
             this.បគគលកStaffToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.បគគលកStaffToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("បគគលកStaffToolStripMenuItem.Image")));
             this.បគគលកStaffToolStripMenuItem.Name = "បគគលកStaffToolStripMenuItem";
@@ -153,19 +159,29 @@
             this.បគគលកStaffToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.បគគលកStaffToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
-            // បញចលបគគលកAddStaffToolStripMenuItem
+            // btnAddStaff
             // 
-            this.បញចលបគគលកAddStaffToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.បញចលបគគលកAddStaffToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
-            this.បញចលបគគលកAddStaffToolStripMenuItem.Name = "បញចលបគគលកAddStaffToolStripMenuItem";
-            this.បញចលបគគលកAddStaffToolStripMenuItem.Size = new System.Drawing.Size(296, 32);
-            this.បញចលបគគលកAddStaffToolStripMenuItem.Text = "បញ្ចូលបុគ្គលិក / Add Employee";
+            this.btnAddStaff.BackColor = System.Drawing.Color.Black;
+            this.btnAddStaff.ForeColor = System.Drawing.Color.Yellow;
+            this.btnAddStaff.Name = "btnAddStaff";
+            this.btnAddStaff.Size = new System.Drawing.Size(334, 32);
+            this.btnAddStaff.Text = "បញ្ចូលបុគ្គលិក / Add Employee";
+            this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
+            // 
+            // btnprevilageanduser
+            // 
+            this.btnprevilageanduser.BackColor = System.Drawing.Color.Black;
+            this.btnprevilageanduser.ForeColor = System.Drawing.Color.Yellow;
+            this.btnprevilageanduser.Name = "btnprevilageanduser";
+            this.btnprevilageanduser.Size = new System.Drawing.Size(334, 32);
+            this.btnprevilageanduser.Text = "សិទ្ធិ នឹង គណនី​ / Previlage and User";
+            this.btnprevilageanduser.Click += new System.EventHandler(this.btnprevilageanduser_Click);
             // 
             // អនកភផគតផគងSupplierToolStripMenuItem
             // 
             this.អនកភផគតផគងSupplierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem,
-            this.នចលសវភImportBookToolStripMenuItem});
+            this.btnSupplierInformatiomn,
+            this.btnImportBook});
             this.អនកភផគតផគងSupplierToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.អនកភផគតផគងSupplierToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("អនកភផគតផគងSupplierToolStripMenuItem.Image")));
             this.អនកភផគតផគងSupplierToolStripMenuItem.Name = "អនកភផគតផគងSupplierToolStripMenuItem";
@@ -174,21 +190,23 @@
             this.អនកភផគតផគងSupplierToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.អនកភផគតផគងSupplierToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
-            // ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem
+            // btnSupplierInformatiomn
             // 
-            this.ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
-            this.ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem.Name = "ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem";
-            this.ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem.Size = new System.Drawing.Size(373, 32);
-            this.ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem.Text = "ព័ត៌មានអ្នកផ្គត់ផ្កង់ / Supplier Informatiomn";
+            this.btnSupplierInformatiomn.BackColor = System.Drawing.Color.Black;
+            this.btnSupplierInformatiomn.ForeColor = System.Drawing.Color.Yellow;
+            this.btnSupplierInformatiomn.Name = "btnSupplierInformatiomn";
+            this.btnSupplierInformatiomn.Size = new System.Drawing.Size(361, 32);
+            this.btnSupplierInformatiomn.Text = "ព័ត៌មានអ្នកផ្គត់ផ្កង់ / Supplier Information";
+            this.btnSupplierInformatiomn.Click += new System.EventHandler(this.btnSupplierInformatiomn_Click);
             // 
-            // នចលសវភImportBookToolStripMenuItem
+            // btnImportBook
             // 
-            this.នចលសវភImportBookToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.នចលសវភImportBookToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
-            this.នចលសវភImportBookToolStripMenuItem.Name = "នចលសវភImportBookToolStripMenuItem";
-            this.នចលសវភImportBookToolStripMenuItem.Size = new System.Drawing.Size(373, 32);
-            this.នចលសវភImportBookToolStripMenuItem.Text = "នាំចូលសៀវភៅ / Import Book";
+            this.btnImportBook.BackColor = System.Drawing.Color.Black;
+            this.btnImportBook.ForeColor = System.Drawing.Color.Yellow;
+            this.btnImportBook.Name = "btnImportBook";
+            this.btnImportBook.Size = new System.Drawing.Size(361, 32);
+            this.btnImportBook.Text = "នាំចូលសៀវភៅ / Import Book";
+            this.btnImportBook.Click += new System.EventHandler(this.btnImportBook_Click);
             // 
             // របយករណReportToolStripMenuItem
             // 
@@ -226,8 +244,8 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.lbldate);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(198, 0);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(198, 527);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1032, 44);
@@ -290,17 +308,17 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem សវភBookToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ខចសវភBorrowBookToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem សងសវភReturnBookToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnBorrowBook;
+        private System.Windows.Forms.ToolStripMenuItem btnReturnBook;
         private System.Windows.Forms.ToolStripMenuItem សមជកStudentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem បគគលកStaffToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem សវងរកFindToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ចឈមRegisterToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ធវបណណPrintCardToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem បញចលបគគលកAddStaffToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnFindbook;
+        private System.Windows.Forms.ToolStripMenuItem btnRegister;
+        private System.Windows.Forms.ToolStripMenuItem btnPrintCard;
+        private System.Windows.Forms.ToolStripMenuItem btnAddStaff;
         private System.Windows.Forms.ToolStripMenuItem អនកភផគតផគងSupplierToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ពតមនអនកផគតផកងSupplierInformatiomnToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem នចលសវភImportBookToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnSupplierInformatiomn;
+        private System.Windows.Forms.ToolStripMenuItem btnImportBook;
         private System.Windows.Forms.ToolStripMenuItem របយករណReportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ចកចញLogOutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
@@ -308,6 +326,7 @@
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripMenuItem btnprevilageanduser;
 
     }
 }
