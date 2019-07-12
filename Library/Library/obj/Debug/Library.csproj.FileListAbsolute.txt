@@ -41,3 +41,6 @@ D:\Python\API\Library\Project\Library\Library\obj\Debug\Library.pdb
 D:\GITHUB\Library\Project\Library\Library\bin\Debug\Library.exe.config
 D:\GITHUB\Library\Project\Library\Library\obj\Debug\Library.exe
 D:\GITHUB\Library\Project\Library\Library\obj\Debug\Library.pdb
+D:\Project\library\Library\Library\bin\Debug\Library.exe.config
+D:\Project\library\Library\Library\obj\Debug\Library.exe
+D:\Project\library\Library\Library\obj\Debug\Library.pdb
