@@ -86,7 +86,7 @@
             this.chdob.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.chdob.Location = new System.Drawing.Point(7, 65);
             this.chdob.Name = "chdob";
-            this.chdob.Size = new System.Drawing.Size(120, 38);
+            this.chdob.Size = new System.Drawing.Size(101, 32);
             this.chdob.TabIndex = 1;
             this.chdob.Text = "ថ្ងៃទិញចូល";
             this.chdob.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             this.chname.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.chname.Location = new System.Drawing.Point(7, 27);
             this.chname.Name = "chname";
-            this.chname.Size = new System.Drawing.Size(142, 38);
+            this.chname.Size = new System.Drawing.Size(118, 32);
             this.chname.TabIndex = 1;
             this.chname.Text = "ឈ្មោះបុគ្គលិក";
             this.chname.UseVisualStyleBackColor = true;
@@ -108,7 +108,7 @@
             this.chemail.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.chemail.Location = new System.Drawing.Point(464, 27);
             this.chemail.Name = "chemail";
-            this.chemail.Size = new System.Drawing.Size(162, 38);
+            this.chemail.Size = new System.Drawing.Size(135, 32);
             this.chemail.TabIndex = 1;
             this.chemail.Text = "ឈ្មោះអ្នកផ្គត់ផ្គង់";
             this.chemail.UseVisualStyleBackColor = true;
@@ -129,7 +129,7 @@
             this.cmname.FormattingEnabled = true;
             this.cmname.Location = new System.Drawing.Point(0, 0);
             this.cmname.Name = "cmname";
-            this.cmname.Size = new System.Drawing.Size(188, 35);
+            this.cmname.Size = new System.Drawing.Size(188, 30);
             this.cmname.TabIndex = 0;
             // 
             // pnemail
@@ -148,7 +148,7 @@
             this.cmemail.FormattingEnabled = true;
             this.cmemail.Location = new System.Drawing.Point(0, 0);
             this.cmemail.Name = "cmemail";
-            this.cmemail.Size = new System.Drawing.Size(261, 35);
+            this.cmemail.Size = new System.Drawing.Size(261, 30);
             this.cmemail.TabIndex = 1;
             // 
             // button4
@@ -213,7 +213,7 @@
             this.dateTimePicker1.Dock = System.Windows.Forms.DockStyle.Left;
             this.dateTimePicker1.Location = new System.Drawing.Point(0, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(245, 34);
+            this.dateTimePicker1.Size = new System.Drawing.Size(245, 29);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // panel2
@@ -354,7 +354,7 @@
             this.checkBox1.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.checkBox1.Location = new System.Drawing.Point(7, 100);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(146, 38);
+            this.checkBox1.Size = new System.Drawing.Size(123, 32);
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "ថ្ងៃកត់ចូលស្ដុក";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -373,12 +373,12 @@
             this.dateTimePicker2.Dock = System.Windows.Forms.DockStyle.Left;
             this.dateTimePicker2.Location = new System.Drawing.Point(0, 0);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(245, 34);
+            this.dateTimePicker2.Size = new System.Drawing.Size(245, 29);
             this.dateTimePicker2.TabIndex = 0;
             // 
             // import
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 40F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 642);
             this.Controls.Add(this.panel2);
@@ -388,6 +388,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
             this.Name = "import";
             this.Text = "import";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnname.ResumeLayout(false);
             this.pnemail.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

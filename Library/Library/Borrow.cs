@@ -7,14 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Library.Class;
 
 namespace Library
 {
     public partial class Borrow : Form
     {
+        mdi obj = new mdi();
         public Borrow()
         {
             InitializeComponent();
+
+        }
+
+        private void btnadd_Click(object sender, EventArgs e)
+        {
+            addborrow abr = new addborrow();
+            
         }
     }
 }

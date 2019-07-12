@@ -410,6 +410,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
             this.Name = "User_and_Privilage";
             this.Text = "User_and_Privilage";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

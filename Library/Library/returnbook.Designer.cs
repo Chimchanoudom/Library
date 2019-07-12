@@ -71,10 +71,10 @@
             this.btnfind.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnfind.Font = new System.Drawing.Font("Khmer OS", 12F);
             this.btnfind.ForeColor = System.Drawing.Color.White;
-            this.btnfind.Location = new System.Drawing.Point(608, 70);
-            this.btnfind.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnfind.Location = new System.Drawing.Point(607, 91);
+            this.btnfind.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.btnfind.Name = "btnfind";
-            this.btnfind.Size = new System.Drawing.Size(124, 52);
+            this.btnfind.Size = new System.Drawing.Size(90, 36);
             this.btnfind.TabIndex = 0;
             this.btnfind.Text = "ស្វែងរក";
             this.btnfind.UseVisualStyleBackColor = false;
@@ -85,7 +85,8 @@
             this.chid.Checked = true;
             this.chid.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chid.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.chid.Location = new System.Drawing.Point(7, 26);
+            this.chid.Location = new System.Drawing.Point(7, 44);
+            this.chid.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.chid.Name = "chid";
             this.chid.Size = new System.Drawing.Size(85, 32);
             this.chid.TabIndex = 1;
@@ -96,7 +97,8 @@
             // 
             this.chemail.AutoSize = true;
             this.chemail.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.chemail.Location = new System.Drawing.Point(464, 27);
+            this.chemail.Location = new System.Drawing.Point(464, 46);
+            this.chemail.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.chemail.Name = "chemail";
             this.chemail.Size = new System.Drawing.Size(138, 32);
             this.chemail.TabIndex = 1;
@@ -108,9 +110,10 @@
             this.pnemail.Controls.Add(this.cmemail);
             this.pnemail.Enabled = false;
             this.pnemail.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.pnemail.Location = new System.Drawing.Point(607, 30);
+            this.pnemail.Location = new System.Drawing.Point(607, 51);
+            this.pnemail.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.pnemail.Name = "pnemail";
-            this.pnemail.Size = new System.Drawing.Size(307, 32);
+            this.pnemail.Size = new System.Drawing.Size(300, 30);
             this.pnemail.TabIndex = 0;
             // 
             // cmemail
@@ -118,6 +121,7 @@
             this.cmemail.Dock = System.Windows.Forms.DockStyle.Left;
             this.cmemail.FormattingEnabled = true;
             this.cmemail.Location = new System.Drawing.Point(0, 0);
+            this.cmemail.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.cmemail.Name = "cmemail";
             this.cmemail.Size = new System.Drawing.Size(261, 30);
             this.cmemail.TabIndex = 1;
@@ -127,10 +131,10 @@
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.panel2.Location = new System.Drawing.Point(0, 219);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Location = new System.Drawing.Point(0, 246);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(965, 416);
+            this.panel2.Size = new System.Drawing.Size(916, 211);
             this.panel2.TabIndex = 8;
             // 
             // dataGridView1
@@ -159,10 +163,11 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            this.dataGridView1.Size = new System.Drawing.Size(965, 416);
+            this.dataGridView1.Size = new System.Drawing.Size(916, 211);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -211,6 +216,7 @@
             // 
             this.txtid.Dock = System.Windows.Forms.DockStyle.Left;
             this.txtid.Location = new System.Drawing.Point(0, 0);
+            this.txtid.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtid.Name = "txtid";
             this.txtid.Size = new System.Drawing.Size(256, 29);
             this.txtid.TabIndex = 1;
@@ -219,9 +225,10 @@
             // 
             this.pnid.Controls.Add(this.txtid);
             this.pnid.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.pnid.Location = new System.Drawing.Point(146, 30);
+            this.pnid.Location = new System.Drawing.Point(146, 51);
+            this.pnid.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.pnid.Name = "pnid";
-            this.pnid.Size = new System.Drawing.Size(270, 29);
+            this.pnid.Size = new System.Drawing.Size(270, 30);
             this.pnid.TabIndex = 0;
             // 
             // panel1
@@ -233,20 +240,20 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.panel1.Location = new System.Drawing.Point(0, 156);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(0, 184);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(965, 63);
+            this.panel1.Size = new System.Drawing.Size(916, 62);
             this.panel1.TabIndex = 7;
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Fuchsia;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(399, 6);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button4.Location = new System.Drawing.Point(351, 10);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(124, 52);
+            this.button4.Size = new System.Drawing.Size(108, 45);
             this.button4.TabIndex = 0;
             this.button4.Text = "ព័ត៌មានលំអិត";
             this.button4.UseVisualStyleBackColor = false;
@@ -255,10 +262,10 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(267, 6);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button3.Location = new System.Drawing.Point(235, 10);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 52);
+            this.button3.Size = new System.Drawing.Size(108, 45);
             this.button3.TabIndex = 0;
             this.button3.Text = "លុបព័ត៌មាន ";
             this.button3.UseVisualStyleBackColor = false;
@@ -267,10 +274,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(135, 6);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(119, 10);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 52);
+            this.button2.Size = new System.Drawing.Size(108, 45);
             this.button2.TabIndex = 0;
             this.button2.Text = "កែព័ត៌មាន";
             this.button2.UseVisualStyleBackColor = false;
@@ -279,10 +286,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Green;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 6);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(3, 10);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 52);
+            this.button1.Size = new System.Drawing.Size(108, 45);
             this.button1.TabIndex = 0;
             this.button1.Text = "បង្កើតថ្មី";
             this.button1.UseVisualStyleBackColor = false;
@@ -302,10 +309,10 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Font = new System.Drawing.Font("Khmer OS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(965, 156);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 8, 4, 8);
+            this.groupBox1.Size = new System.Drawing.Size(916, 184);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ស្វែងរក";
@@ -314,7 +321,8 @@
             // 
             this.chdob.AutoSize = true;
             this.chdob.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.chdob.Location = new System.Drawing.Point(7, 99);
+            this.chdob.Location = new System.Drawing.Point(7, 132);
+            this.chdob.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.chdob.Name = "chdob";
             this.chdob.Size = new System.Drawing.Size(126, 32);
             this.chdob.TabIndex = 4;
@@ -325,7 +333,8 @@
             // 
             this.chname.AutoSize = true;
             this.chname.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.chname.Location = new System.Drawing.Point(7, 61);
+            this.chname.Location = new System.Drawing.Point(7, 82);
+            this.chname.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.chname.Name = "chname";
             this.chname.Size = new System.Drawing.Size(110, 32);
             this.chname.TabIndex = 5;
@@ -337,15 +346,17 @@
             this.pnname.Controls.Add(this.dateTimePicker1);
             this.pnname.Enabled = false;
             this.pnname.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.pnname.Location = new System.Drawing.Point(146, 66);
+            this.pnname.Location = new System.Drawing.Point(146, 91);
+            this.pnname.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.pnname.Name = "pnname";
-            this.pnname.Size = new System.Drawing.Size(270, 30);
+            this.pnname.Size = new System.Drawing.Size(270, 36);
             this.pnname.TabIndex = 2;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Dock = System.Windows.Forms.DockStyle.Left;
             this.dateTimePicker1.Location = new System.Drawing.Point(0, 0);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(256, 29);
             this.dateTimePicker1.TabIndex = 0;
@@ -354,29 +365,34 @@
             // 
             this.panel3.Controls.Add(this.dateTimePicker2);
             this.panel3.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.panel3.Location = new System.Drawing.Point(146, 102);
+            this.panel3.Location = new System.Drawing.Point(146, 137);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(270, 29);
+            this.panel3.Size = new System.Drawing.Size(270, 33);
             this.panel3.TabIndex = 3;
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Dock = System.Windows.Forms.DockStyle.Left;
             this.dateTimePicker2.Location = new System.Drawing.Point(0, 0);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(256, 29);
             this.dateTimePicker2.TabIndex = 1;
             // 
             // returnbook
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(965, 635);
+            this.ClientSize = new System.Drawing.Size(916, 457);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
+            this.Font = new System.Drawing.Font("Khmer OS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.Name = "returnbook";
-            this.Text = "@return";
+            this.Text = "returnBook";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnemail.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

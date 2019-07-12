@@ -38,10 +38,10 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btndetail = new System.Windows.Forms.Button();
+            this.btndelte = new System.Windows.Forms.Button();
+            this.btnupdate = new System.Windows.Forms.Button();
+            this.btnadd = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtid = new System.Windows.Forms.TextBox();
             this.pnid = new System.Windows.Forms.Panel();
@@ -161,61 +161,62 @@
             this.panel2.Size = new System.Drawing.Size(959, 423);
             this.panel2.TabIndex = 13;
             // 
-            // button4
+            // btndetail
             // 
-            this.button4.BackColor = System.Drawing.Color.Fuchsia;
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(399, 6);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(124, 52);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "ព័ត៌មានលំអិត";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btndetail.BackColor = System.Drawing.Color.Fuchsia;
+            this.btndetail.ForeColor = System.Drawing.Color.White;
+            this.btndetail.Location = new System.Drawing.Point(399, 6);
+            this.btndetail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btndetail.Name = "btndetail";
+            this.btndetail.Size = new System.Drawing.Size(124, 52);
+            this.btndetail.TabIndex = 0;
+            this.btndetail.Text = "ព័ត៌មានលំអិត";
+            this.btndetail.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btndelte
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(267, 6);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 52);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "លុបព័ត៌មាន ";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btndelte.BackColor = System.Drawing.Color.Red;
+            this.btndelte.ForeColor = System.Drawing.Color.White;
+            this.btndelte.Location = new System.Drawing.Point(267, 6);
+            this.btndelte.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btndelte.Name = "btndelte";
+            this.btndelte.Size = new System.Drawing.Size(124, 52);
+            this.btndelte.TabIndex = 0;
+            this.btndelte.Text = "លុបព័ត៌មាន ";
+            this.btndelte.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnupdate
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(135, 6);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 52);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "កែព័ត៌មាន";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnupdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnupdate.ForeColor = System.Drawing.Color.White;
+            this.btnupdate.Location = new System.Drawing.Point(135, 6);
+            this.btnupdate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnupdate.Name = "btnupdate";
+            this.btnupdate.Size = new System.Drawing.Size(124, 52);
+            this.btnupdate.TabIndex = 0;
+            this.btnupdate.Text = "កែព័ត៌មាន";
+            this.btnupdate.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnadd
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 6);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 52);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "បង្កើតថ្មី";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnadd.BackColor = System.Drawing.Color.Green;
+            this.btnadd.ForeColor = System.Drawing.Color.White;
+            this.btnadd.Location = new System.Drawing.Point(3, 6);
+            this.btnadd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(124, 52);
+            this.btnadd.TabIndex = 0;
+            this.btnadd.Text = "បង្កើតថ្មី";
+            this.btnadd.UseVisualStyleBackColor = false;
+            this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gray;
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btndetail);
+            this.panel1.Controls.Add(this.btndelte);
+            this.panel1.Controls.Add(this.btnupdate);
+            this.panel1.Controls.Add(this.btnadd);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.panel1.Location = new System.Drawing.Point(0, 156);
@@ -403,6 +404,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
             this.Name = "Borrow";
             this.Text = "Borrow";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -421,10 +423,10 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btndetail;
+        private System.Windows.Forms.Button btndelte;
+        private System.Windows.Forms.Button btnupdate;
+        private System.Windows.Forms.Button btnadd;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.Panel pnid;

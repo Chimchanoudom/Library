@@ -117,6 +117,7 @@
     <Compile Include="category.Designer.cs">
       <DependentUpon>category.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class\encapulation.cs" />
     <Compile Include="Class\mdi.cs" />
     <Compile Include="collectType.cs">
       <SubType>Form</SubType>
