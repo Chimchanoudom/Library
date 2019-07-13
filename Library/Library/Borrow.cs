@@ -13,7 +13,7 @@ namespace Library
 {
     public partial class Borrow : Form
     {
-        mdi obj = new mdi();
+        
         public Borrow()
         {
             InitializeComponent();
@@ -23,6 +23,7 @@ namespace Library
         private void btnadd_Click(object sender, EventArgs e)
         {
             addborrow abr = new addborrow();
+            mdi.main(encapulation.Parent1, abr);
             
         }
     }

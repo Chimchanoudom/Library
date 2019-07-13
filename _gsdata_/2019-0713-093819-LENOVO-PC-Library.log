@@ -1,0 +1,8 @@
+2019-07-13 09:38:20: == Sync Started by User Command
+2019-07-13 09:38:20: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.vshost.exe' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.vshost.exe' (24,224)
+2019-07-13 09:38:22: Copy Over 'D:/Project/library/Library/Library/Class/mdi.cs' -> 'D:/Python/Project/Library/Library/Class/mdi.cs' (1,158)
+2019-07-13 09:38:22: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.csproj.FileListAbsolute.txt' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.csproj.FileListAbsolute.txt' (5,963)
+2019-07-13 09:38:22: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.exe' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.exe' (197,632)
+2019-07-13 09:38:22: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.pdb' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.pdb' (294,400)
+2019-07-13 09:38:22: == Sync Complete. Time: 00:00:02, Speed: 260 KB/s, OK: 5, Errors: 0
+2019-07-13 09:38:22: 

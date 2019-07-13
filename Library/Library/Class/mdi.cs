@@ -11,6 +11,7 @@ namespace Library.Class
     {
         public static void main(Form Parent, Form chile)
         {
+            int i = 0;
             if (Parent.MdiChildren.Length == 0)
             {
                 chile.MdiParent = Parent;
@@ -24,13 +25,20 @@ namespace Library.Class
                     {
                         frm.Activate();
                         return;
+                        i++;
                     }
-                    else
-                    {
-                        chile.MdiParent = Parent;
-                        chile.Show();
-                    }
+                    //else
+                    //{
+                    //    chile.MdiParent = Parent;
+                    //    chile.Show();
+                    //}
                 }
+                if (i == 0)
+                {
+                    chile.MdiParent = Parent;
+                    chile.Show();
+                }
+                
             }
 
 

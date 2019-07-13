@@ -70,7 +70,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(198, 571);
+            this.menuStrip1.Size = new System.Drawing.Size(198, 642);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -245,10 +245,10 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.lbldate);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(198, 527);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.panel1.Location = new System.Drawing.Point(198, 593);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1032, 44);
+            this.panel1.Size = new System.Drawing.Size(1032, 49);
             this.panel1.TabIndex = 1;
             // 
             // label3
@@ -259,7 +259,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 24);
+            this.label3.Size = new System.Drawing.Size(139, 27);
             this.label3.TabIndex = 5;
             this.label3.Text = "អ្នកប្រើប្រាស់ / User  :";
             // 
@@ -269,9 +269,9 @@
             this.lbldate.BackColor = System.Drawing.Color.Black;
             this.lbldate.Dock = System.Windows.Forms.DockStyle.Right;
             this.lbldate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbldate.Location = new System.Drawing.Point(894, 0);
+            this.lbldate.Location = new System.Drawing.Point(900, 0);
             this.lbldate.Name = "lbldate";
-            this.lbldate.Size = new System.Drawing.Size(134, 24);
+            this.lbldate.Size = new System.Drawing.Size(128, 27);
             this.lbldate.TabIndex = 3;
             this.lbldate.Text = "កាលបរិច្ឆេទ / Date :";
             this.lbldate.Click += new System.EventHandler(this.label1_Click);
@@ -282,15 +282,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1230, 571);
+            this.ClientSize = new System.Drawing.Size(1230, 642);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("Khmer OS Muol Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Khmer OS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.Name = "Form1";
             this.Text = "ប្រព័ន្ធគ្រប់គ្រង់បណ្ណាល័យ ជំនាន់ទី១​​ ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

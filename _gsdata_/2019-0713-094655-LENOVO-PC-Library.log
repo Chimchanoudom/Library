@@ -1,0 +1,14 @@
+2019-07-13 09:46:55: == Sync Started by User Command
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/addborrow.cs' -> 'D:/Python/Project/Library/Library/addborrow.cs' (396)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/addborrow.Designer.cs' -> 'D:/Python/Project/Library/Library/addborrow.Designer.cs' (22,161)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/addborrow.resx' -> 'D:/Python/Project/Library/Library/addborrow.resx' (5,817)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.exe' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.exe' (197,632)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.pdb' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.pdb' (294,400)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.vshost.exe' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.vshost.exe' (24,224)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.addborrow.resources' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.addborrow.resources' (180)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.csproj.FileListAbsolute.txt' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.csproj.FileListAbsolute.txt' (5,963)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.csproj.GenerateResource.Cache' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.csproj.GenerateResource.Cache' (2,828)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.exe' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.exe' (197,632)
+2019-07-13 09:46:56: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.pdb' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.pdb' (294,400)
+2019-07-13 09:46:56: == Sync Complete. Time: 00:00:01, Speed: 1.02 MB/s, OK: 11, Errors: 0
+2019-07-13 09:46:56: 

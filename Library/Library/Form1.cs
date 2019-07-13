@@ -18,6 +18,8 @@ namespace Library
         public Form1()
         {
             InitializeComponent();
+            encapulation.Parent1 = this;
+            //MessageBox.Show(encapt.Parent.ToString());
 
         }
 
@@ -44,32 +46,38 @@ namespace Library
 
         private void btnBorrowBook_Click(object sender, EventArgs e)
         {
+
             Borrow br = new Borrow();
             mdi.main(this, br);
+            br.WindowState = FormWindowState.Normal;
         }
 
         private void btnReturnBook_Click(object sender, EventArgs e)
         {
             returnbook rb = new returnbook();
             mdi.main(this, rb);
+            rb.WindowState = FormWindowState.Normal;
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
             student st = new student();
             mdi.main(this, st);
+            st.WindowState = FormWindowState.Normal;
         }
 
         private void btnPrintCard_Click(object sender, EventArgs e)
         {
             printcard pc = new printcard();
             mdi.main(this, pc);
+            pc.WindowState = FormWindowState.Normal;
         }
 
         private void btnAddStaff_Click(object sender, EventArgs e)
         {
             staff sf = new staff();
             mdi.main(this, sf);
+            sf.WindowState = FormWindowState.Normal;
         }
 
         private void btnSupplierInformatiomn_Click(object sender, EventArgs e)
@@ -81,12 +89,14 @@ namespace Library
         {
             User_and_Privilage up = new User_and_Privilage();
             mdi.main(this, up);
+            up.WindowState = FormWindowState.Normal;
         }
 
         private void btnImportBook_Click(object sender, EventArgs e)
         {
             import im = new import();
             mdi.main(this, im);
+            im.WindowState = FormWindowState.Normal;
         }
     }
 }

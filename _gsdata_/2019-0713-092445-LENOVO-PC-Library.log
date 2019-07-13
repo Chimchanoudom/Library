@@ -1,0 +1,22 @@
+2019-07-13 09:24:50: == Sync Started by User Command
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.exe' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.exe' (197,632)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.pdb' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.pdb' (294,400)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.vshost.exe' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.vshost.exe' (24,224)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/Borrow.cs' -> 'D:/Python/Project/Library/Library/Borrow.cs' (605)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/Borrow.resx' -> 'D:/Python/Project/Library/Library/Borrow.resx' (7,105)
+2019-07-13 09:24:50: Copy New 'D:/Project/library/Library/Library/Class/encapulation.cs' -> 'D:/Python/Project/Library/Library/Class/encapulation.cs' (382)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/Form1.cs' -> 'D:/Python/Project/Library/Library/Form1.cs' (2,508)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/Form1.Designer.cs' -> 'D:/Python/Project/Library/Library/Form1.Designer.cs' (21,183)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/Form1.resx' -> 'D:/Python/Project/Library/Library/Form1.resx' (48,018)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.Borrow.resources' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.Borrow.resources' (180)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.csproj.FileListAbsolute.txt' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.csproj.FileListAbsolute.txt' (5,963)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.csproj.GenerateResource.Cache' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.csproj.GenerateResource.Cache' (2,828)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.exe' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.exe' (197,632)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.Form1.resources' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.Form1.resources' (28,685)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.pdb' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.pdb' (294,400)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.returnbook.resources' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.returnbook.resources' (180)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/returnbook.cs' -> 'D:/Python/Project/Library/Library/returnbook.cs' (398)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/returnbook.Designer.cs' -> 'D:/Python/Project/Library/Library/returnbook.Designer.cs' (22,870)
+2019-07-13 09:24:50: Copy Over 'D:/Project/library/Library/Library/returnbook.resx' -> 'D:/Python/Project/Library/Library/returnbook.resx' (6,921)
+2019-07-13 09:24:50: == Sync Complete. Time: 00:00:00, Speed: 0 bytes/s, OK: 19, Errors: 0
+2019-07-13 09:24:50: 
