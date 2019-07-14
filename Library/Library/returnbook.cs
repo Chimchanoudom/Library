@@ -16,5 +16,16 @@ namespace Library
         {
             InitializeComponent();
         }
+
+        private void btnadd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btndetail_Click(object sender, EventArgs e)
+        {
+            return_detail rwd = new return_detail();
+            rwd.ShowDialog();
+        }
     }
 }

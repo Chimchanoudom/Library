@@ -45,10 +45,10 @@
             this.txtid = new System.Windows.Forms.TextBox();
             this.pnid = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btndetail = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnadd = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chdob = new System.Windows.Forms.CheckBox();
             this.chname = new System.Windows.Forms.CheckBox();
@@ -234,10 +234,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gray;
-            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.btndetail);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnadd);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.panel1.Location = new System.Drawing.Point(0, 184);
@@ -246,17 +246,18 @@
             this.panel1.Size = new System.Drawing.Size(916, 62);
             this.panel1.TabIndex = 7;
             // 
-            // button4
+            // btndetail
             // 
-            this.button4.BackColor = System.Drawing.Color.Fuchsia;
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(351, 10);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 45);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "ព័ត៌មានលំអិត";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btndetail.BackColor = System.Drawing.Color.Fuchsia;
+            this.btndetail.ForeColor = System.Drawing.Color.White;
+            this.btndetail.Location = new System.Drawing.Point(351, 10);
+            this.btndetail.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
+            this.btndetail.Name = "btndetail";
+            this.btndetail.Size = new System.Drawing.Size(108, 45);
+            this.btndetail.TabIndex = 0;
+            this.btndetail.Text = "ព័ត៌មានលំអិត";
+            this.btndetail.UseVisualStyleBackColor = false;
+            this.btndetail.Click += new System.EventHandler(this.btndetail_Click);
             // 
             // button3
             // 
@@ -282,17 +283,18 @@
             this.button2.Text = "កែព័ត៌មាន";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnadd
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 10);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "បង្កើតថ្មី";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnadd.BackColor = System.Drawing.Color.Green;
+            this.btnadd.ForeColor = System.Drawing.Color.White;
+            this.btnadd.Location = new System.Drawing.Point(3, 10);
+            this.btnadd.Margin = new System.Windows.Forms.Padding(4, 8, 4, 8);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(108, 45);
+            this.btnadd.TabIndex = 0;
+            this.btnadd.Text = "បង្កើតថ្មី";
+            this.btnadd.UseVisualStyleBackColor = false;
+            this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // groupBox1
             // 
@@ -419,10 +421,10 @@
         private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.Panel pnid;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btndetail;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnadd;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;

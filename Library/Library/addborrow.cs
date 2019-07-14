@@ -16,5 +16,9 @@ namespace Library
         {
             InitializeComponent();
         }
+        public addborrow(List<object> data)
+        {
+            InitializeComponent();
+        }
     }
 }

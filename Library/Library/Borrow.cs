@@ -19,12 +19,24 @@ namespace Library
             InitializeComponent();
 
         }
-
+        addborrow abr;
         private void btnadd_Click(object sender, EventArgs e)
         {
-            addborrow abr = new addborrow();
+            abr = new addborrow();
             mdi.main(encapulation.Parent1, abr);
             
+        }
+
+        private void btnupdate_Click(object sender, EventArgs e)
+        {
+            abr = new addborrow(new List<object> { });
+            mdi.main(encapulation.Parent1, abr);
+        }
+
+        private void btndetail_Click(object sender, EventArgs e)
+        {
+            Borrow_detail brd = new Borrow_detail();
+            mdi.main(encapulation.Parent1, brd);
         }
     }
 }

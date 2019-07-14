@@ -16,5 +16,9 @@ namespace Library
         {
             InitializeComponent();
         }
+        public addstudent(List<object>data)
+        {
+            InitializeComponent();
+        }
     }
 }
