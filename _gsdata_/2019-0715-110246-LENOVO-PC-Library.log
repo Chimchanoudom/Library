@@ -1,0 +1,19 @@
+2019-07-15 11:02:47: == Sync Started by User Command
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/Addprintcard.cs' -> 'D:/Python/Project/Library/Library/Addprintcard.cs' (508)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.exe' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.exe' (199,680)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.pdb' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.pdb' (239,104)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/bin/Debug/Library.vshost.exe' -> 'D:/Python/Project/Library/Library/bin/Debug/Library.vshost.exe' (24,224)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.csproj.FileListAbsolute.txt' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.csproj.FileListAbsolute.txt' (5,963)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.csproj.GenerateResource.Cache' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.csproj.GenerateResource.Cache' (2,769)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.exe' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.exe' (199,680)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.pdb' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.pdb' (239,104)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.printcard.resources' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.printcard.resources' (180)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/obj/Debug/Library.student.resources' -> 'D:/Python/Project/Library/Library/obj/Debug/Library.student.resources' (180)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/printcard.cs' -> 'D:/Python/Project/Library/Library/printcard.cs' (1,085)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/printcard.Designer.cs' -> 'D:/Python/Project/Library/Library/printcard.Designer.cs' (24,181)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/printcard.resx' -> 'D:/Python/Project/Library/Library/printcard.resx' (7,289)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/student.cs' -> 'D:/Python/Project/Library/Library/student.cs' (949)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/student.Designer.cs' -> 'D:/Python/Project/Library/Library/student.Designer.cs' (23,080)
+2019-07-15 11:02:48: Copy Over 'D:/Project/library/Library/Library/student.resx' -> 'D:/Python/Project/Library/Library/student.resx' (7,289)
+2019-07-15 11:02:48: == Sync Complete. Time: 00:00:01, Speed: 997 KB/s, OK: 16, Errors: 0
+2019-07-15 11:02:48: 

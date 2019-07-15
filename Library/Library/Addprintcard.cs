@@ -16,5 +16,9 @@ namespace Library
         {
             InitializeComponent();
         }
+        public Addprintcard(List<object> data)
+        {
+            InitializeComponent();
+        }
     }
 }

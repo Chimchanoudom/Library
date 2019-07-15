@@ -39,9 +39,9 @@
             this.Column7 = new System.Windows.Forms.DataGridViewImageColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btndetail = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnupdate = new System.Windows.Forms.Button();
             this.btnadd = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnid = new System.Windows.Forms.Panel();
@@ -167,70 +167,73 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.panel2.Location = new System.Drawing.Point(0, 185);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(842, 341);
             this.panel2.TabIndex = 5;
             // 
-            // button4
+            // btndetail
             // 
-            this.button4.BackColor = System.Drawing.Color.Fuchsia;
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(355, 5);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(110, 44);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "ព័ត៌មានលំអិត";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btndetail.BackColor = System.Drawing.Color.Fuchsia;
+            this.btndetail.ForeColor = System.Drawing.Color.White;
+            this.btndetail.Location = new System.Drawing.Point(355, 5);
+            this.btndetail.Margin = new System.Windows.Forms.Padding(4);
+            this.btndetail.Name = "btndetail";
+            this.btndetail.Size = new System.Drawing.Size(110, 44);
+            this.btndetail.TabIndex = 0;
+            this.btndetail.Text = "ព័ត៌មានលំអិត";
+            this.btndetail.UseVisualStyleBackColor = false;
+            this.btndetail.Click += new System.EventHandler(this.btndetail_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(237, 5);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 44);
             this.button3.TabIndex = 0;
             this.button3.Text = "លុបព័ត៌មាន ";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnupdate
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(120, 5);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 44);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "កែព័ត៌មាន";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnupdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnupdate.ForeColor = System.Drawing.Color.White;
+            this.btnupdate.Location = new System.Drawing.Point(120, 5);
+            this.btnupdate.Margin = new System.Windows.Forms.Padding(4);
+            this.btnupdate.Name = "btnupdate";
+            this.btnupdate.Size = new System.Drawing.Size(110, 44);
+            this.btnupdate.TabIndex = 0;
+            this.btnupdate.Text = "កែព័ត៌មាន";
+            this.btnupdate.UseVisualStyleBackColor = false;
+            this.btnupdate.Click += new System.EventHandler(this.btnupdate_Click);
             // 
             // btnadd
             // 
             this.btnadd.BackColor = System.Drawing.Color.Green;
             this.btnadd.ForeColor = System.Drawing.Color.White;
             this.btnadd.Location = new System.Drawing.Point(3, 5);
-            this.btnadd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnadd.Margin = new System.Windows.Forms.Padding(4);
             this.btnadd.Name = "btnadd";
             this.btnadd.Size = new System.Drawing.Size(110, 44);
             this.btnadd.TabIndex = 0;
             this.btnadd.Text = "បង្កើតថ្មី";
             this.btnadd.UseVisualStyleBackColor = false;
+            this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gray;
-            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.btndetail);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnupdate);
             this.panel1.Controls.Add(this.btnadd);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.panel1.Location = new System.Drawing.Point(0, 132);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(842, 53);
             this.panel1.TabIndex = 4;
@@ -296,7 +299,7 @@
             this.btnfind.Font = new System.Drawing.Font("Khmer OS", 12F);
             this.btnfind.ForeColor = System.Drawing.Color.White;
             this.btnfind.Location = new System.Drawing.Point(540, 66);
-            this.btnfind.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnfind.Margin = new System.Windows.Forms.Padding(4);
             this.btnfind.Name = "btnfind";
             this.btnfind.Size = new System.Drawing.Size(110, 44);
             this.btnfind.TabIndex = 0;
@@ -364,9 +367,9 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Font = new System.Drawing.Font("Khmer OS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(842, 132);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
@@ -429,9 +432,9 @@
         private System.Windows.Forms.DataGridViewImageColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btndetail;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnupdate;
         private System.Windows.Forms.Button btnadd;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel pnid;

@@ -41,7 +41,7 @@ D:\Python\API\Library\Project\Library\Library\obj\Debug\Library.pdb
 D:\GITHUB\Library\Project\Library\Library\bin\Debug\Library.exe.config
 D:\GITHUB\Library\Project\Library\Library\obj\Debug\Library.exe
 D:\GITHUB\Library\Project\Library\Library\obj\Debug\Library.pdb
-D:\Project\library\Library\Library\obj\Debug\Library.exe
+D:\Project\library\Library\Library\obj\Debug\Library.pdb
 D:\Project\library\Library\Library\obj\Debug\Library.addbook.resources
 D:\Project\library\Library\Library\obj\Debug\Library.addborrow.resources
 D:\Project\library\Library\Library\obj\Debug\Library.addexpense.resources
@@ -73,8 +73,3 @@ D:\Project\library\Library\Library\obj\Debug\Library.student.resources
 D:\Project\library\Library\Library\obj\Debug\Library.testing.resources
 D:\Project\library\Library\Library\obj\Debug\Library.User_and_Privilage.resources
 D:\Project\library\Library\Library\obj\Debug\Library.csproj.GenerateResource.Cache
-D:\Project\library\Library\Library\obj\Debug\Library.pdb
-D:\Project\library\Library\Library\bin\Debug\Library.exe.config
-D:\Project\library\Library\Library\bin\Debug\Library.exe
-D:\Project\library\Library\Library\bin\Debug\Library.pdb
-D:\Project\library\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache

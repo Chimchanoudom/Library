@@ -73,7 +73,7 @@
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(926, 48);
+            this.label1.Size = new System.Drawing.Size(715, 34);
             this.label1.TabIndex = 1;
             this.label1.Text = "បង្កើតគណនី នឹង ការផ្ដល់សិទ្ធប្រើប្រាស់";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,11 +89,11 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Font = new System.Drawing.Font("Khmer OS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(0, 48);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.groupBox1.Location = new System.Drawing.Point(0, 34);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 7, 4, 7);
-            this.groupBox1.Size = new System.Drawing.Size(926, 180);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.groupBox1.Size = new System.Drawing.Size(715, 152);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ព័ត៌មានគណនី";
@@ -101,29 +101,29 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(128, 134);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.textBox2.Location = new System.Drawing.Point(127, 113);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(278, 29);
+            this.textBox2.Size = new System.Drawing.Size(248, 29);
             this.textBox2.TabIndex = 2;
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(128, 91);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.textBox1.Location = new System.Drawing.Point(127, 77);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(278, 29);
+            this.textBox1.Size = new System.Drawing.Size(248, 29);
             this.textBox1.TabIndex = 2;
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(128, 47);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.comboBox1.Location = new System.Drawing.Point(127, 40);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(278, 30);
+            this.comboBox1.Size = new System.Drawing.Size(248, 30);
             this.comboBox1.TabIndex = 1;
             // 
             // label5
@@ -131,7 +131,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Khmer OS", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(417, 141);
+            this.label5.Location = new System.Drawing.Point(384, 119);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 27);
@@ -141,7 +141,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 134);
+            this.label4.Location = new System.Drawing.Point(12, 113);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(99, 32);
@@ -151,7 +151,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 91);
+            this.label3.Location = new System.Drawing.Point(12, 77);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 32);
@@ -161,7 +161,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 47);
+            this.label2.Location = new System.Drawing.Point(12, 40);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 32);
@@ -180,11 +180,11 @@
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.Font = new System.Drawing.Font("Khmer OS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(0, 228);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.groupBox2.Location = new System.Drawing.Point(0, 186);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 7, 4, 7);
-            this.groupBox2.Size = new System.Drawing.Size(926, 202);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.groupBox2.Size = new System.Drawing.Size(715, 170);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ការផ្ដល់សិទ្ធប្រើប្រាស់";
@@ -192,8 +192,8 @@
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(342, 97);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.checkBox6.Location = new System.Drawing.Point(237, 82);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(226, 36);
             this.checkBox6.TabIndex = 2;
@@ -203,8 +203,8 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(690, 47);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.checkBox3.Location = new System.Drawing.Point(489, 40);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(208, 36);
             this.checkBox3.TabIndex = 2;
@@ -214,8 +214,8 @@
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(19, 147);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.checkBox5.Location = new System.Drawing.Point(17, 124);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(208, 36);
             this.checkBox5.TabIndex = 2;
@@ -225,8 +225,8 @@
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(690, 97);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.checkBox7.Location = new System.Drawing.Point(489, 82);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(166, 36);
             this.checkBox7.TabIndex = 2;
@@ -236,8 +236,8 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(18, 97);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.checkBox4.Location = new System.Drawing.Point(16, 82);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(210, 36);
             this.checkBox4.TabIndex = 2;
@@ -247,8 +247,8 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(342, 47);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.checkBox2.Location = new System.Drawing.Point(237, 40);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(190, 36);
             this.checkBox2.TabIndex = 2;
@@ -258,8 +258,8 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(18, 47);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.checkBox1.Location = new System.Drawing.Point(16, 40);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(136, 36);
             this.checkBox1.TabIndex = 2;
@@ -270,10 +270,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Green;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 901);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.button1.Location = new System.Drawing.Point(0, 760);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 108);
+            this.button1.Size = new System.Drawing.Size(142, 91);
             this.button1.TabIndex = 0;
             this.button1.Text = "យល់ព្រម";
             this.button1.UseVisualStyleBackColor = false;
@@ -286,20 +286,20 @@
             this.panel1.Controls.Add(this.button5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.panel1.Location = new System.Drawing.Point(0, 430);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(0, 356);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(926, 63);
+            this.panel1.Size = new System.Drawing.Size(715, 53);
             this.panel1.TabIndex = 10;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(267, 6);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button3.Location = new System.Drawing.Point(237, 5);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 52);
+            this.button3.Size = new System.Drawing.Size(110, 44);
             this.button3.TabIndex = 0;
             this.button3.Text = "លុបព័ត៌មាន ";
             this.button3.UseVisualStyleBackColor = false;
@@ -308,10 +308,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(135, 6);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(120, 5);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 52);
+            this.button2.Size = new System.Drawing.Size(110, 44);
             this.button2.TabIndex = 0;
             this.button2.Text = "កែព័ត៌មាន";
             this.button2.UseVisualStyleBackColor = false;
@@ -320,10 +320,10 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Green;
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(3, 6);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button5.Location = new System.Drawing.Point(3, 5);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(124, 52);
+            this.button5.Size = new System.Drawing.Size(110, 44);
             this.button5.TabIndex = 0;
             this.button5.Text = "បង្កើតថ្មី";
             this.button5.UseVisualStyleBackColor = false;
@@ -332,9 +332,9 @@
             // 
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 493);
+            this.panel2.Location = new System.Drawing.Point(0, 409);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(926, 388);
+            this.panel2.Size = new System.Drawing.Size(715, 334);
             this.panel2.TabIndex = 11;
             // 
             // dataGridView1
@@ -356,7 +356,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(926, 388);
+            this.dataGridView1.Size = new System.Drawing.Size(715, 334);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -397,20 +397,20 @@
             // 
             // User_and_Privilage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(926, 881);
+            this.ClientSize = new System.Drawing.Size(715, 743);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Font = new System.Drawing.Font("Khmer OS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.Font = new System.Drawing.Font("Khmer OS", 10F);
+            this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Name = "User_and_Privilage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "User_and_Privilage";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
