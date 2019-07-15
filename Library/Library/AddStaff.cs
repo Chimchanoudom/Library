@@ -16,5 +16,9 @@ namespace Library
         {
             InitializeComponent();
         }
+        public AddStaff(List<object>data)
+        {
+            InitializeComponent();
+        }
     }
 }

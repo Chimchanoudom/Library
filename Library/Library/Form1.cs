@@ -98,5 +98,17 @@ namespace Library
             mdi.main(this, im);
             im.WindowState = FormWindowState.Normal;
         }
+
+        private void btnexpense_Click(object sender, EventArgs e)
+        {
+            Expense expense = new Expense();
+            mdi.main(this, expense);
+        }
+
+        private void btnexpensetype_Click(object sender, EventArgs e)
+        {
+            addexpense_type expensetype = new addexpense_type();
+            mdi.main(this, expensetype);
+        }
     }
 }

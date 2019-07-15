@@ -16,6 +16,7 @@ namespace Library.Class
             {
                 chile.MdiParent = Parent;
                 chile.Show();
+                chile.WindowState = FormWindowState.Normal;
 
             }
             else

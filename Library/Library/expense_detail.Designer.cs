@@ -32,7 +32,12 @@
             this.chname = new System.Windows.Forms.CheckBox();
             this.chid = new System.Windows.Forms.CheckBox();
             this.pnname = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.txtid = new System.Windows.Forms.TextBox();
@@ -41,11 +46,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnid = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pnname.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -59,10 +59,10 @@
             this.btnfind.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnfind.Font = new System.Drawing.Font("Khmer OS", 12F);
             this.btnfind.ForeColor = System.Drawing.Color.White;
-            this.btnfind.Location = new System.Drawing.Point(508, 31);
-            this.btnfind.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnfind.Location = new System.Drawing.Point(592, 43);
+            this.btnfind.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
             this.btnfind.Name = "btnfind";
-            this.btnfind.Size = new System.Drawing.Size(124, 52);
+            this.btnfind.Size = new System.Drawing.Size(111, 44);
             this.btnfind.TabIndex = 0;
             this.btnfind.Text = "ស្វែងរក";
             this.btnfind.UseVisualStyleBackColor = false;
@@ -71,7 +71,8 @@
             // 
             this.chname.AutoSize = true;
             this.chname.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.chname.Location = new System.Drawing.Point(7, 64);
+            this.chname.Location = new System.Drawing.Point(8, 87);
+            this.chname.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.chname.Name = "chname";
             this.chname.Size = new System.Drawing.Size(127, 32);
             this.chname.TabIndex = 1;
@@ -84,7 +85,8 @@
             this.chid.Checked = true;
             this.chid.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chid.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.chid.Location = new System.Drawing.Point(7, 26);
+            this.chid.Location = new System.Drawing.Point(8, 41);
+            this.chid.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.chid.Name = "chid";
             this.chid.Size = new System.Drawing.Size(85, 32);
             this.chid.TabIndex = 1;
@@ -96,10 +98,21 @@
             this.pnname.Controls.Add(this.comboBox1);
             this.pnname.Enabled = false;
             this.pnname.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.pnname.Location = new System.Drawing.Point(146, 69);
+            this.pnname.Location = new System.Drawing.Point(194, 97);
+            this.pnname.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.pnname.Name = "pnname";
-            this.pnname.Size = new System.Drawing.Size(270, 30);
+            this.pnname.Size = new System.Drawing.Size(360, 38);
             this.pnname.TabIndex = 0;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(0, 0);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(340, 30);
+            this.comboBox1.TabIndex = 0;
             // 
             // dataGridView1
             // 
@@ -116,107 +129,11 @@
             this.Column4});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(886, 315);
+            this.dataGridView1.Size = new System.Drawing.Size(838, 282);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Font = new System.Drawing.Font("Khmer OS", 11F);
-            this.panel2.Location = new System.Drawing.Point(0, 183);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(886, 315);
-            this.panel2.TabIndex = 19;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button5.Font = new System.Drawing.Font("Khmer OS", 12F);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(640, 30);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(124, 52);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "ស្វែងរក";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // txtid
-            // 
-            this.txtid.Dock = System.Windows.Forms.DockStyle.Left;
-            this.txtid.Location = new System.Drawing.Point(0, 0);
-            this.txtid.Name = "txtid";
-            this.txtid.Size = new System.Drawing.Size(256, 29);
-            this.txtid.TabIndex = 1;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(139, 6);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 52);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "លុបព័ត៌មាន ";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(7, 6);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 52);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "កែព័ត៌មាន";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Gray;
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
-            this.panel1.Location = new System.Drawing.Point(0, 120);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(886, 63);
-            this.panel1.TabIndex = 18;
-            // 
-            // pnid
-            // 
-            this.pnid.Controls.Add(this.txtid);
-            this.pnid.Font = new System.Drawing.Font("Palatino Linotype", 12F);
-            this.pnid.Location = new System.Drawing.Point(146, 30);
-            this.pnid.Name = "pnid";
-            this.pnid.Size = new System.Drawing.Size(270, 29);
-            this.pnid.TabIndex = 0;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.btnfind);
-            this.groupBox1.Controls.Add(this.chname);
-            this.groupBox1.Controls.Add(this.chid);
-            this.groupBox1.Controls.Add(this.pnname);
-            this.groupBox1.Controls.Add(this.pnid);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox1.Font = new System.Drawing.Font("Khmer OS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(886, 120);
-            this.groupBox1.TabIndex = 17;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "ស្វែងរក";
             // 
             // Column1
             // 
@@ -242,23 +159,117 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
-            // comboBox1
+            // panel2
             // 
-            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(0, 0);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(256, 30);
-            this.comboBox1.TabIndex = 0;
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Font = new System.Drawing.Font("Khmer OS", 11F);
+            this.panel2.Location = new System.Drawing.Point(0, 215);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(838, 282);
+            this.panel2.TabIndex = 19;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button5.Font = new System.Drawing.Font("Khmer OS", 12F);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(713, 43);
+            this.button5.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(111, 44);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "ស្វែងរក";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // txtid
+            // 
+            this.txtid.Dock = System.Windows.Forms.DockStyle.Left;
+            this.txtid.Location = new System.Drawing.Point(0, 0);
+            this.txtid.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(340, 29);
+            this.txtid.TabIndex = 1;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Red;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(143, 12);
+            this.button3.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(124, 44);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "លុបព័ត៌មាន ";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(9, 12);
+            this.button2.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(124, 44);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "កែព័ត៌មាន";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Gray;
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
+            this.panel1.Location = new System.Drawing.Point(0, 150);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(838, 65);
+            this.panel1.TabIndex = 18;
+            // 
+            // pnid
+            // 
+            this.pnid.Controls.Add(this.txtid);
+            this.pnid.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.pnid.Location = new System.Drawing.Point(194, 49);
+            this.pnid.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.pnid.Name = "pnid";
+            this.pnid.Size = new System.Drawing.Size(360, 36);
+            this.pnid.TabIndex = 0;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.btnfind);
+            this.groupBox1.Controls.Add(this.chname);
+            this.groupBox1.Controls.Add(this.chid);
+            this.groupBox1.Controls.Add(this.pnname);
+            this.groupBox1.Controls.Add(this.pnid);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Font = new System.Drawing.Font("Khmer OS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.groupBox1.Size = new System.Drawing.Size(838, 150);
+            this.groupBox1.TabIndex = 17;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "ស្វែងរក";
             // 
             // expense_detail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(886, 498);
+            this.ClientSize = new System.Drawing.Size(838, 497);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
+            this.Font = new System.Drawing.Font("Khmer OS", 10F);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Name = "expense_detail";
             this.Text = "expense_detail";
             this.pnname.ResumeLayout(false);

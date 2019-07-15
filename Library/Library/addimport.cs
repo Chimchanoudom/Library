@@ -16,5 +16,9 @@ namespace Library
         {
             InitializeComponent();
         }
+        public addimport(List<object>data)
+        {
+            InitializeComponent();
+        }
     }
 }

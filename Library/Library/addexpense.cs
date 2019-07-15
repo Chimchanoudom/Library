@@ -16,7 +16,10 @@ namespace Library
         {
             InitializeComponent();
         }
-
+        public addexpense(List<object>data)
+        {
+            InitializeComponent();
+        }
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 

@@ -73,3 +73,8 @@ D:\Project\library\Library\Library\obj\Debug\Library.student.resources
 D:\Project\library\Library\Library\obj\Debug\Library.testing.resources
 D:\Project\library\Library\Library\obj\Debug\Library.User_and_Privilage.resources
 D:\Project\library\Library\Library\obj\Debug\Library.csproj.GenerateResource.Cache
+D:\Project\library\Library\Library\bin\Debug\Library.exe.config
+D:\Project\library\Library\Library\bin\Debug\Library.exe
+D:\Project\library\Library\Library\bin\Debug\Library.pdb
+D:\Project\library\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+D:\Project\library\Library\Library\obj\Debug\Library.exe

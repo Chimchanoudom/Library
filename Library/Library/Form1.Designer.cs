@@ -45,12 +45,13 @@
             this.btnSupplierInformatiomn = new System.Windows.Forms.ToolStripMenuItem();
             this.btnImportBook = new System.Windows.Forms.ToolStripMenuItem();
             this.របយករណReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnexpense = new System.Windows.Forms.ToolStripMenuItem();
             this.ចកចញLogOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.lbldate = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnexpensetype = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -70,7 +71,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(198, 642);
+            this.menuStrip1.Size = new System.Drawing.Size(206, 642);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -83,7 +84,7 @@
             this.សវភBookToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.សវភBookToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("សវភBookToolStripMenuItem.Image")));
             this.សវភBookToolStripMenuItem.Name = "សវភBookToolStripMenuItem";
-            this.សវភBookToolStripMenuItem.Size = new System.Drawing.Size(181, 31);
+            this.សវភBookToolStripMenuItem.Size = new System.Drawing.Size(189, 31);
             this.សវភBookToolStripMenuItem.Text = "សៀវភៅ / Book";
             this.សវភBookToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.សវភBookToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
@@ -122,7 +123,7 @@
             this.សមជកStudentToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.សមជកStudentToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("សមជកStudentToolStripMenuItem.Image")));
             this.សមជកStudentToolStripMenuItem.Name = "សមជកStudentToolStripMenuItem";
-            this.សមជកStudentToolStripMenuItem.Size = new System.Drawing.Size(181, 31);
+            this.សមជកStudentToolStripMenuItem.Size = new System.Drawing.Size(189, 31);
             this.សមជកStudentToolStripMenuItem.Text = "សមាជិក​ / Student";
             this.សមជកStudentToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.សមជកStudentToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
@@ -154,7 +155,7 @@
             this.បគគលកStaffToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.បគគលកStaffToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("បគគលកStaffToolStripMenuItem.Image")));
             this.បគគលកStaffToolStripMenuItem.Name = "បគគលកStaffToolStripMenuItem";
-            this.បគគលកStaffToolStripMenuItem.Size = new System.Drawing.Size(181, 31);
+            this.បគគលកStaffToolStripMenuItem.Size = new System.Drawing.Size(189, 31);
             this.បគគលកStaffToolStripMenuItem.Text = "បុគ្គលិក /​ Employee";
             this.បគគលកStaffToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.បគគលកStaffToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
@@ -185,7 +186,7 @@
             this.អនកភផគតផគងSupplierToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.អនកភផគតផគងSupplierToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("អនកភផគតផគងSupplierToolStripMenuItem.Image")));
             this.អនកភផគតផគងSupplierToolStripMenuItem.Name = "អនកភផគតផគងSupplierToolStripMenuItem";
-            this.អនកភផគតផគងSupplierToolStripMenuItem.Size = new System.Drawing.Size(181, 31);
+            this.អនកភផគតផគងSupplierToolStripMenuItem.Size = new System.Drawing.Size(189, 31);
             this.អនកភផគតផគងSupplierToolStripMenuItem.Text = "អ្នកផ្គត់ផ្គង់/ Supplier";
             this.អនកភផគតផគងSupplierToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.អនកភផគតផគងSupplierToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
@@ -211,22 +212,24 @@
             // របយករណReportToolStripMenuItem
             // 
             this.របយករណReportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
+            this.btnexpense,
+            this.btnexpensetype});
             this.របយករណReportToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.របយករណReportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("របយករណReportToolStripMenuItem.Image")));
             this.របយករណReportToolStripMenuItem.Name = "របយករណReportToolStripMenuItem";
-            this.របយករណReportToolStripMenuItem.Size = new System.Drawing.Size(181, 31);
-            this.របយករណReportToolStripMenuItem.Text = "របាយការណ៍/ Report​ ";
+            this.របយករណReportToolStripMenuItem.Size = new System.Drawing.Size(189, 31);
+            this.របយករណReportToolStripMenuItem.Text = "ការចំណាយ / Expense";
             this.របយករណReportToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.របយករណReportToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
-            // toolStripMenuItem1
+            // btnexpense
             // 
-            this.toolStripMenuItem1.BackColor = System.Drawing.Color.Black;
-            this.toolStripMenuItem1.ForeColor = System.Drawing.Color.Yellow;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(209, 32);
-            this.toolStripMenuItem1.Text = "toolStripMenuItem1";
+            this.btnexpense.BackColor = System.Drawing.Color.Black;
+            this.btnexpense.ForeColor = System.Drawing.Color.Yellow;
+            this.btnexpense.Name = "btnexpense";
+            this.btnexpense.Size = new System.Drawing.Size(305, 32);
+            this.btnexpense.Text = "ការចំណាយ​ / Expense";
+            this.btnexpense.Click += new System.EventHandler(this.btnexpense_Click);
             // 
             // ចកចញLogOutToolStripMenuItem
             // 
@@ -234,7 +237,7 @@
             this.ចកចញLogOutToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
             this.ចកចញLogOutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ចកចញLogOutToolStripMenuItem.Image")));
             this.ចកចញLogOutToolStripMenuItem.Name = "ចកចញLogOutToolStripMenuItem";
-            this.ចកចញLogOutToolStripMenuItem.Size = new System.Drawing.Size(181, 31);
+            this.ចកចញLogOutToolStripMenuItem.Size = new System.Drawing.Size(189, 31);
             this.ចកចញLogOutToolStripMenuItem.Text = "ចាកចេញ / Log out";
             this.ចកចញLogOutToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -245,10 +248,10 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.lbldate);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(198, 593);
+            this.panel1.Location = new System.Drawing.Point(206, 593);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1032, 49);
+            this.panel1.Size = new System.Drawing.Size(1024, 49);
             this.panel1.TabIndex = 1;
             // 
             // label3
@@ -269,7 +272,7 @@
             this.lbldate.BackColor = System.Drawing.Color.Black;
             this.lbldate.Dock = System.Windows.Forms.DockStyle.Right;
             this.lbldate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbldate.Location = new System.Drawing.Point(900, 0);
+            this.lbldate.Location = new System.Drawing.Point(892, 0);
             this.lbldate.Name = "lbldate";
             this.lbldate.Size = new System.Drawing.Size(128, 27);
             this.lbldate.TabIndex = 3;
@@ -279,6 +282,15 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // btnexpensetype
+            // 
+            this.btnexpensetype.BackColor = System.Drawing.Color.Black;
+            this.btnexpensetype.ForeColor = System.Drawing.Color.Yellow;
+            this.btnexpensetype.Name = "btnexpensetype";
+            this.btnexpensetype.Size = new System.Drawing.Size(305, 32);
+            this.btnexpensetype.Text = "ប្រភេទចំណាយ / Expense Type";
+            this.btnexpensetype.Click += new System.EventHandler(this.btnexpensetype_Click);
             // 
             // Form1
             // 
@@ -292,7 +304,7 @@
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.Name = "Form1";
-            this.Text = "ប្រព័ន្ធគ្រប់គ្រង់បណ្ណាល័យ ជំនាន់ទី១​​ ";
+            this.Text = "z";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -321,12 +333,13 @@
         private System.Windows.Forms.ToolStripMenuItem btnImportBook;
         private System.Windows.Forms.ToolStripMenuItem របយករណReportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ចកចញLogOutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem btnexpense;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripMenuItem btnprevilageanduser;
+        private System.Windows.Forms.ToolStripMenuItem btnexpensetype;
 
     }
 }

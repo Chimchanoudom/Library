@@ -287,7 +287,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.panel1.Location = new System.Drawing.Point(0, 356);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(715, 53);
             this.panel1.TabIndex = 10;
@@ -297,7 +297,7 @@
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(237, 5);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 44);
             this.button3.TabIndex = 0;
@@ -309,7 +309,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(120, 5);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 44);
             this.button2.TabIndex = 0;
@@ -321,7 +321,7 @@
             this.button5.BackColor = System.Drawing.Color.Green;
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(3, 5);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(110, 44);
             this.button5.TabIndex = 0;
@@ -407,6 +407,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Khmer OS", 10F);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Name = "User_and_Privilage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

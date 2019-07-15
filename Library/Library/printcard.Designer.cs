@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
             this.btnfind = new System.Windows.Forms.Button();
@@ -85,9 +85,9 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Font = new System.Drawing.Font("Khmer OS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(825, 132);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
@@ -99,7 +99,7 @@
             this.button5.Font = new System.Drawing.Font("Khmer OS", 12F);
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(658, 58);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(110, 44);
             this.button5.TabIndex = 0;
@@ -112,7 +112,7 @@
             this.btnfind.Font = new System.Drawing.Font("Khmer OS", 12F);
             this.btnfind.ForeColor = System.Drawing.Color.White;
             this.btnfind.Location = new System.Drawing.Point(540, 59);
-            this.btnfind.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnfind.Margin = new System.Windows.Forms.Padding(4);
             this.btnfind.Name = "btnfind";
             this.btnfind.Size = new System.Drawing.Size(110, 44);
             this.btnfind.TabIndex = 0;
@@ -246,7 +246,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.panel1.Location = new System.Drawing.Point(0, 132);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(825, 53);
             this.panel1.TabIndex = 9;
@@ -256,7 +256,7 @@
             this.btndetails.BackColor = System.Drawing.Color.Fuchsia;
             this.btndetails.ForeColor = System.Drawing.Color.White;
             this.btndetails.Location = new System.Drawing.Point(355, 5);
-            this.btndetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btndetails.Margin = new System.Windows.Forms.Padding(4);
             this.btndetails.Name = "btndetails";
             this.btndetails.Size = new System.Drawing.Size(110, 44);
             this.btndetails.TabIndex = 0;
@@ -269,7 +269,7 @@
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(237, 5);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 44);
             this.button3.TabIndex = 0;
@@ -281,7 +281,7 @@
             this.btnupdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnupdate.ForeColor = System.Drawing.Color.White;
             this.btnupdate.Location = new System.Drawing.Point(120, 5);
-            this.btnupdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnupdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnupdate.Name = "btnupdate";
             this.btnupdate.Size = new System.Drawing.Size(110, 44);
             this.btnupdate.TabIndex = 0;
@@ -294,7 +294,7 @@
             this.btnadd.BackColor = System.Drawing.Color.Green;
             this.btnadd.ForeColor = System.Drawing.Color.White;
             this.btnadd.Location = new System.Drawing.Point(3, 5);
-            this.btnadd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnadd.Margin = new System.Windows.Forms.Padding(4);
             this.btnadd.Name = "btnadd";
             this.btnadd.Size = new System.Drawing.Size(110, 44);
             this.btnadd.TabIndex = 0;
@@ -308,7 +308,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Khmer OS", 10F);
             this.panel2.Location = new System.Drawing.Point(0, 185);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(825, 357);
             this.panel2.TabIndex = 10;
@@ -330,14 +330,14 @@
             this.Column6,
             this.Column7,
             this.Column8});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Khmer OS", 10F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Green;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Khmer OS", 10F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
